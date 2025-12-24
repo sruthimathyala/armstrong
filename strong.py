@@ -1,4 +1,4 @@
-def armstrong_number(n):     
+def strong_number(n):     
     total=0
     a=n
     while n>0:
@@ -14,5 +14,6 @@ def armstrong_number(n):
     else:
         return("not an armstrong number")
 n=int(input("enter a number:"))
-print(armstrong_number(n))
+print(strong_number(n))
     
+
